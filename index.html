@@ -1,0 +1,43 @@
+---
+layout: default
+title: Blog
+description: Journal cybersécurité de KRX_404 — labs, certifs, retours d’expérience.
+body_class: home
+---
+
+<section class="hero-stage">
+  <div class="hero-media" aria-hidden="true">
+    <img src="{{ '/assets/img/hero-mr-robot.jpg' | relative_url }}" alt="" class="hero-img">
+    <div class="hero-veil"></div>
+  </div>
+
+  <div class="hero-copy">
+    <h1 class="hero-brand">KRX<span>_404</span></h1>
+    <p class="hero-line">Journal cyber · labs · discipline · learning in public.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="{{ '/profil/' | relative_url }}">Mon profil</a>
+      <a class="btn" href="{{ '/about/' | relative_url }}">Parcours</a>
+      <a class="btn" href="https://www.youtube.com/@mr-robot-g2f">YouTube</a>
+    </div>
+  </div>
+
+  <a class="hero-scroll" href="#journal" aria-label="Voir les articles">↓</a>
+</section>
+
+<section class="journal" id="journal">
+  <div class="journal-head">
+    <p class="eyebrow">Journal</p>
+    <h2 class="journal-title">Dernières traces</h2>
+  </div>
+
+  <div class="grid">
+    {% assign posts = site.posts %}
+    {% for post in posts %}
+    <a class="card" href="{{ post.url | relative_url }}">
+      <div class="tag">{{ post.category | default: "Article" }} · {{ post.date | date: "%d %b %Y" }}</div>
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.description | default: post.excerpt | strip_html | truncate: 140 }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>

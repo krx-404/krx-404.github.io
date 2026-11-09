@@ -1,0 +1,24 @@
+Bandit games start 
+Niveau 0 ssh et nom du serveur ou adresse Ip avcec le numero du port si ce n'est pas le port 22 dans notre cas c'est le prot 2220
+Niveau 1 Apres la connexion je dois lister les repertoires pour voir la ou je suis avec Ls et Apres je dois cat et le nom du fichier pour lire a l'interieur du fichier 
+Mot de passe obtenir: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+je me deconnecte et je me connecte au niveau 1 ; ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+cat -- "--located in the home directory--" 
+Pour le niveau 1 je dois trouver d'abord un ficchier qui est un peu bizarre au debut mais j'ai capter le truc 
+Quand je fais Ls ca m'affiche un petit tiret et  je ne considerais pas ca oorh que c'est ca le fichier donc j'ai fait comme en haut cat + nom du fichier mais cette fois comme c'est :le systeme ne va pas comprendre donc j'ai rajouter < comme ca (cat < -) tu voir pour avoir le mot de passe ; 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+  
+  Pour le niveau je me reconecte encore 
+NIveau 3 mot de passe: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+NIveau 4 mot de passe :2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+NIveau 5 mot de passe :4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+NIveau 6 mot de passe :HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+NIveau 7 mot de passe :morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+NIveau 8 mot de passe :dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+NIveau 9 mot de passe :4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+NIveau 10 mot de passe :FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+NIveau 11 mot de passe :
+NIveau 12 mot de passe :
+NIveau 13 mot de passe :
+NIveau 14 mot de passe :
+NIveau 15 mot de passe :

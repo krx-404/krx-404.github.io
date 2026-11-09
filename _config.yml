@@ -1,0 +1,34 @@
+title: KRX_404
+description: "Mon parcours cybersécurité — cybersécurité — étape par étape. Blog & roadmap."
+author: KRX_404
+email: koukouiricardo55@gmail.com
+url: "https://krx-404.github.io"
+baseurl: ""
+
+lang: fr
+timezone: Africa/Porto-Novo
+markdown: kramdown
+permalink: /blog/:title/
+
+future: true
+
+exclude:
+  - templates/
+  - docs/
+  - labs/
+  - LICENSE
+  - README.md
+  - RESSOURCES.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - sync-auto.sh
+  - vendor/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: KRX_404

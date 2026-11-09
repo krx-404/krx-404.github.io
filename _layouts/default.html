@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body class="{{ page.body_class }}">
+  <div class="noise" aria-hidden="true"></div>
+  <div class="grid-fx" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="logo" href="{{ '/' | relative_url }}">KRX<span>_404</span></a>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Blog</a>
+      <a href="{{ '/profil/' | relative_url }}">Profil</a>
+      <a href="{{ '/about/' | relative_url }}">Parcours</a>
+      <a href="https://github.com/RicardoKOUKOUI/KRX_404">GitHub</a>
+    </nav>
+  </header>
+
+  <main class="site-main{% if page.body_class == 'home' %} site-main--home{% endif %}">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>KRX_404</strong> — learning in public
+      <p>KRX_404 · Cybersécurité · IFRI</p>
+    </div>
+    <div class="social">
+      <a href="https://github.com/RicardoKOUKOUI">GitHub</a>
+      <a href="https://www.linkedin.com/in/ricardo-koukoui-8a8437399">LinkedIn</a>
+      <a href="https://www.youtube.com/@mr-robot-g2f">YouTube</a>
+    </div>
+  </footer>
+  <script src="{{ '/assets/js/carousel.js' | relative_url }}" defer></script>
+</body>
+</html>
