@@ -3,7 +3,7 @@
 > Mon parcours en **cybersécurité** — du début à la cybersécurité, étape par étape.  
 > Si tu veux suivre les mêmes traces, ce repo est ta roadmap.
 
-**Blog (GitHub Pages) :** [https://krx-404.github.io/](https://krx-404.github.io/) · [github.io](https://ricardokoukoui.github.io/KRX_404/)
+**Blog :** [https://krx-404.github.io/](https://krx-404.github.io/) · aussi [ricardokoukoui.me/KRX_404](https://ricardokoukoui.me/KRX_404/)
 
 **Auteur / pseudo :** **KRX_404** ([@RicardoKOUKOUI](https://github.com/RicardoKOUKOUI))  
 **Profil :** Cybersecurity enthusiast · Cybersécurité · CS student (IFRI)  
@@ -43,9 +43,9 @@ Ce n’est pas un cours officiel. C’est **mon chemin**, transparent, pour que 
 ## Comment suivre mes traces (méthode)
 
 1. Lis l’étape **00 → 06** dans l’ordre  
-1b. Lis aussi le récit **EEIA 2026** (IA) : [docs/eeia-2026.md](docs/eeia-2026.md) / [article blog](https://krx-404.github.io/blog/eeia-2026-mon-mois-en-ia/)  
-1c. Puis l’étape **YouTube** (discipline + partage) : [docs/07-youtube-discipline.md](docs/07-youtube-discipline.md) / [article](https://krx-404.github.io/blog/chaine-youtube-discipline-et-partage/)  
-*(Sur le blog : étapes 8 EEIA → 9 YouTube dans [Parcours](https://krx-404.github.io/about/).)*  
+1b. Lis aussi le récit **EEIA 2026** (IA) : [docs/eeia-2026.md](docs/eeia-2026.md) / [article blog](https://ricardokoukoui.me/KRX_404/blog/eeia-2026-mon-mois-en-ia/)  
+1c. Puis l’étape **YouTube** (discipline + partage) : [docs/07-youtube-discipline.md](docs/07-youtube-discipline.md) / [article](https://ricardokoukoui.me/KRX_404/blog/chaine-youtube-discipline-et-partage/)  
+*(Sur le blog : étapes 8 EEIA → 9 YouTube dans [Parcours](https://ricardokoukoui.me/KRX_404/about/).)*  
 2. Ne saute pas la pratique (labs)  
 3. Pour chaque lab : note **recon → faille → impact → fix**  
 4. Publie tes write-ups (même courts)  

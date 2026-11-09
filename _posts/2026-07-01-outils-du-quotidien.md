@@ -3,6 +3,7 @@ title: "Outils du quotidien : un kit junior, pas 300 tools"
 description: "Burp, notes, Linux, reporting — le setup minimal qui fait avancer."
 category: Étape 06 · Outils
 reading_time: 4
+track: cyber
 ---
 
 Un junior n’a pas besoin de 300 tools. Il a besoin d’un **kit propre**.

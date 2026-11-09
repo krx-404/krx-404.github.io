@@ -3,6 +3,7 @@ title: "Étape — Routine quotidienne : TryHackMe streaks & badges NetAcad"
 description: "Apprendre chaque jour : objectifs de streak TryHackMe, badges Cisco NetAcad, et comment en faire des posts LinkedIn utiles."
 category: Étape 04 · Routine
 reading_time: 6
+track: cyber
 ---
 
 La différence entre “je m’intéresse à la cyber” et “j’avance vraiment”, c’est souvent une chose : la **routine**.

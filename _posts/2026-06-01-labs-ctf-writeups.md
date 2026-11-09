@@ -3,6 +3,7 @@ title: "Labs & CTF : 1 lab fini = 1 write-up"
 description: "La vraie progression vient de la pratique documentée. Ma règle et mes plateformes."
 category: Étape 05 · Labs
 reading_time: 5
+track: cyber
 ---
 
 La théorie sans labs = illusion.  

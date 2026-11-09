@@ -3,6 +3,7 @@ title: "Ma chaîne YouTube"
 description: "Pourquoi j’ai lancé @mr-robot-g2f : garder la discipline, partager ce que j’apprends, et documenter le chemin en public."
 category: Journal · YouTube
 reading_time: 4
+track: journal
 ---
 
 J’ai créé ma chaîne YouTube : **[@mr-robot-g2f](https://www.youtube.com/@mr-robot-g2f)** (Mr-Robot).
@@ -37,7 +38,7 @@ Je montre **où j’en suis**, ce que je comprends, et ce que je corrige au fil 
 Le blog reste la **mémoire écrite**.  
 YouTube, c’est la **discipline vivante** + le partage plus direct.
 
-- Blog / parcours : [KRX_404](https://krx-404.github.io/)  
+- Blog / parcours : [KRX_404](https://ricardokoukoui.me/KRX_404/)  
 - Chaîne : [youtube.com/@mr-robot-g2f](https://www.youtube.com/@mr-robot-g2f)
 
 ## En résumé

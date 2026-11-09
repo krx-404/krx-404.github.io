@@ -26,8 +26,8 @@ permalink: /profil/
         <p class="carousel-kicker">02 — Focus</p>
         <h3>Ce qui me définit</h3>
         <ul>
-          <li><strong>Cybersécurité</strong> — Linux (Parrot OS), Bandit, TryHackMe, labs, discipline quotidienne</li>
-          <li><strong>Intelligence Artificielle</strong> — EEIA 2026 : Python, ML, robotique, projet immersif</li>
+          <li><strong>Cybersécurité</strong> — voie principale : Linux, Bandit, TryHackMe, labs, pentest web</li>
+          <li><strong>Intelligence Artificielle</strong> — voie à part : EEIA 2026 (Python, ML, robotique)</li>
           <li><strong>Maths appliquées</strong> — rencontrer des gens très forts m’a montré leur vraie utilité</li>
           <li><strong>Learning in public</strong> — GitHub, LinkedIn, YouTube</li>
         </ul>

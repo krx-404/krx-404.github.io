@@ -8,3 +8,4 @@ secrets/
 *.pcap
 *.burp
 _site/
+vendor/

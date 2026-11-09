@@ -2,8 +2,8 @@
 
 Créer une chaîne pour tenir le rythme et partager.
 
-➡️ Article blog : [Ma chaîne YouTube](https://krx-404.github.io/blog/chaine-youtube-discipline-et-partage/)  
-➡️ Sur le site : étape **9** du [Parcours](https://krx-404.github.io/about/)
+➡️ Article blog : [Ma chaîne YouTube](https://ricardokoukoui.me/KRX_404/blog/chaine-youtube-discipline-et-partage/)  
+➡️ Sur le site : étape **9** du [Parcours](https://ricardokoukoui.me/KRX_404/about/)
 
 **Chaîne :** [@mr-robot-g2f](https://www.youtube.com/@mr-robot-g2f) (Mr-Robot)
 

@@ -3,6 +3,7 @@ title: "Fondamentaux : Linux, réseau, bases (ne pas skip)"
 description: "Les bases solides avant d’aller plus loin. Voici mon socle."
 category: Étape 03 · Fondamentaux
 reading_time: 6
+track: cyber
 ---
 
 Il faut des bases solides avant d’aller plus loin.

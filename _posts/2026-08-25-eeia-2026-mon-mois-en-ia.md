@@ -1,8 +1,9 @@
 ---
 title: "EEIA 2026 — mon mois dans l’IA (tout en un)"
 description: "Sélection, 4 semaines (Python, ML, robotique, projet), maths vivantes, et pourquoi tu peux aussi t’inscrire (ouvertures vers le 1er février)."
-category: Journal · EEIA
+category: IA · EEIA
 reading_time: 7
+track: ia
 ---
 
 J’ai eu la **chance d’être pris** à l’**École d’Été sur l’Intelligence Artificielle (EEIA) 2026**, organisée avec **Bénin Excellence** / Fondation Vallet.  
@@ -61,4 +62,4 @@ Un immense merci aux organisateurs, formateurs, et à toutes les personnes crois
 ## Suite
 
 Ma chaîne YouTube pour **tenir la discipline** et **partager** :  
-[Ma chaîne YouTube](https://krx-404.github.io/blog/chaine-youtube-discipline-et-partage/)
+[Ma chaîne YouTube](https://ricardokoukoui.me/KRX_404/blog/chaine-youtube-discipline-et-partage/)

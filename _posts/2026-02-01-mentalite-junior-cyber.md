@@ -3,6 +3,7 @@ title: "Mentalité junior cyber : par où je suis passé"
 description: "Ce que ce parcours est (et n’est pas), et comment avancer sans te mentir."
 category: Étape 00 · Mentalité
 reading_time: 4
+track: cyber
 ---
 
 Je n’ai pas “tout su” d’un coup. J’ai commencé par la curiosité — comment ça marche, comment ça casse, comment on protège — puis j’ai structuré l’apprentissage.

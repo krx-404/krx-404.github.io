@@ -4,6 +4,7 @@ description: "Engagement cybersécurité & sensibilisation — ouvert aux collab
 category: LinkedIn
 reading_time: 2
 linkedin: https://fr.linkedin.com/posts/ricardo-koukoui-8a8437399_ccep-activity-7472435522452324352-ISds
+track: cyber
 ---
 
 Je suis fier d’avoir obtenu la certification **Certified Cybersecurity Educator Professional (CCEP)**.

@@ -4,6 +4,7 @@ description: "Certifié par Hack & FIX Academy sur la prévention des fraudes en
 category: LinkedIn
 reading_time: 2
 linkedin: https://fr.linkedin.com/posts/ricardo-koukoui-8a8437399_cofps-activity-7467158610154831874-Qs-q
+track: cyber
 ---
 
 Étape importante : je suis officiellement certifié **Certified Online Fraud Prevention Specialist (COFPS)** par la **Hack & FIX Academy**.

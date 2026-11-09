@@ -3,6 +3,7 @@ title: "Étape — Maîtrise des commandes Linux avec Bandit (OverTheWire)"
 description: "Je me suis entraîné sur Bandit, j’ai fait tous les levels, et voici les write-ups 0 → fin pour ceux qui se perdent."
 category: Étape 02 · Linux
 reading_time: 5
+track: cyber
 ---
 
 Après le choix de **Parrot OS**, il fallait **vraiment** maîtriser le terminal.
