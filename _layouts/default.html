@@ -18,20 +18,19 @@
     <a class="logo" href="{{ '/' | relative_url }}">KRX<span>_404</span></a>
     <nav>
       <a href="{{ '/' | relative_url }}">Blog</a>
-      <a href="{{ '/profil/' | relative_url }}">Profil</a>
       <a href="{{ '/about/' | relative_url }}">Parcours</a>
       <a href="https://github.com/RicardoKOUKOUI/KRX_404">GitHub</a>
     </nav>
   </header>
 
-  <main class="site-main{% if page.body_class == 'home' %} site-main--home{% endif %}">
+  <main class="site-main">
     {{ content }}
   </main>
 
   <footer class="site-footer">
     <div>
       <strong>KRX_404</strong> — learning in public
-      <p>KRX_404 · Cybersécurité · IFRI</p>
+      <p><a href="{{ '/profil/' | relative_url }}">À propos</a> · Cybersécurité · IFRI</p>
     </div>
     <div class="social">
       <a href="https://github.com/RicardoKOUKOUI">GitHub</a>
@@ -39,6 +38,5 @@
       <a href="https://www.youtube.com/@mr-robot-g2f">YouTube</a>
     </div>
   </footer>
-  <script src="{{ '/assets/js/carousel.js' | relative_url }}" defer></script>
 </body>
 </html>

@@ -1,85 +1,27 @@
 ---
 layout: default
 title: Blog
-description: Journal KRX_404 — cybersécurité & IA, séparés clairement.
+description: Journal KRX_404 — cybersécurité, IA, write-ups et notes de route.
 body_class: home
 ---
 
-<section class="hero-stage">
-  <div class="hero-media" aria-hidden="true">
-    <img src="{{ '/assets/img/hero-mr-robot.jpg' | relative_url }}" alt="" class="hero-img">
-    <div class="hero-veil"></div>
-  </div>
+<section class="blog-intro">
+  <p class="eyebrow">Journal</p>
+  <h1 class="blog-title">KRX<span>_404</span></h1>
+  <p class="lede">Notes, write-ups et avancées — cybersécurité &amp; IA, au fil du temps.</p>
+</section>
 
-  <div class="hero-copy">
-    <h1 class="hero-brand">KRX<span>_404</span></h1>
-    <p class="hero-line">Cyber &amp; IA · deux voies · learning in public.</p>
-    <div class="hero-actions">
-      <a class="btn primary" href="#cyber">Cybersécurité</a>
-      <a class="btn" href="#ia">Intelligence Artificielle</a>
-      <a class="btn" href="{{ '/about/' | relative_url }}">Parcours</a>
+<section class="feed" aria-label="Articles récents">
+  {% for post in site.posts %}
+  <a class="feed-item" href="{{ post.url | relative_url }}">
+    <div class="feed-meta">
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d %b %Y" }}</time>
+      {% if post.track %}
+      <span class="feed-track feed-track--{{ post.track }}">{{ post.track }}</span>
+      {% endif %}
     </div>
-  </div>
-
-  <a class="hero-scroll" href="#cyber" aria-label="Voir les articles">↓</a>
-</section>
-
-{% assign cyber_posts = site.posts | where: "track", "cyber" %}
-{% assign ia_posts = site.posts | where: "track", "ia" %}
-{% assign journal_posts = site.posts | where: "track", "journal" %}
-
-<section class="journal" id="cyber">
-  <div class="journal-head">
-    <p class="eyebrow">Voie 01</p>
-    <h2 class="journal-title">Cybersécurité</h2>
-    <p class="lede journal-lede">Linux, labs, routine, pentest web — le cœur du parcours.</p>
-  </div>
-
-  <div class="grid">
-    {% for post in cyber_posts %}
-    <a class="card" href="{{ post.url | relative_url }}">
-      <div class="tag">{{ post.category | default: "Cyber" }} · {{ post.date | date: "%d %b %Y" }}</div>
-      <h2>{{ post.title }}</h2>
-      <p>{{ post.description | default: post.excerpt | strip_html | truncate: 140 }}</p>
-    </a>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="journal journal--ia" id="ia">
-  <div class="journal-head">
-    <p class="eyebrow">Voie 02</p>
-    <h2 class="journal-title">Intelligence Artificielle</h2>
-    <p class="lede journal-lede">EEIA, Python, ML, robotique — une trace à part, sans mélanger avec la cyber.</p>
-  </div>
-
-  <div class="grid">
-    {% for post in ia_posts %}
-    <a class="card" href="{{ post.url | relative_url }}">
-      <div class="tag">{{ post.category | default: "IA" }} · {{ post.date | date: "%d %b %Y" }}</div>
-      <h2>{{ post.title }}</h2>
-      <p>{{ post.description | default: post.excerpt | strip_html | truncate: 140 }}</p>
-    </a>
-    {% else %}
-    <p class="lede">Bientôt d’autres traces IA ici.</p>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="journal" id="journal">
-  <div class="journal-head">
-    <p class="eyebrow">Transversal</p>
-    <h2 class="journal-title">Journal</h2>
-    <p class="lede journal-lede">Discipline, partage, YouTube — utile aux deux voies.</p>
-  </div>
-
-  <div class="grid">
-    {% for post in journal_posts %}
-    <a class="card" href="{{ post.url | relative_url }}">
-      <div class="tag">{{ post.category | default: "Journal" }} · {{ post.date | date: "%d %b %Y" }}</div>
-      <h2>{{ post.title }}</h2>
-      <p>{{ post.description | default: post.excerpt | strip_html | truncate: 140 }}</p>
-    </a>
-    {% endfor %}
-  </div>
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.description | default: post.excerpt | strip_html | truncate: 160 }}</p>
+  </a>
+  {% endfor %}
 </section>
